@@ -1,0 +1,755 @@
+﻿[2015.12.02-11.02.41:334][  0]Log file open, 12/02/15 19:02:41
+[2015.12.02-11.02.41:334][  0]LogInit:Display: Running engine for game: ProjectDino
+[2015.12.02-11.02.41:334][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.02-11.02.41:334][  0]LogInit:Display: RandInit(1478950108) SRandInit(1478950110).
+[2015.12.02-11.02.41:334][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.02-11.02.41:334][  0]LogStats: Stats thread started at 0.642828
+[2015.12.02-11.02.41:334][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-11.02.41:334][  0]LogInit: API Version: 2758231
+[2015.12.02-11.02.41:334][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.02-11.02.41:334][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.02-11.02.41:334][  0]LogInit: Build Configuration: Development
+[2015.12.02-11.02.41:334][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.02-11.02.41:334][  0]LogInit: Command line:  
+[2015.12.02-11.02.41:334][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.02-11.02.41:334][  0]LogInit: Rocket: 1
+[2015.12.02-11.02.41:443][  0]LogInit: Using libcurl 7.41.0
+[2015.12.02-11.02.41:443][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.02-11.02.41:443][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.02-11.02.41:443][  0]LogInit:  - other features:
+[2015.12.02-11.02.41:443][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.02-11.02.41:443][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.02-11.02.41:443][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.02-11.02.41:443][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.02-11.02.41:443][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.02-11.02.41:444][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.02-11.02.41:444][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.02-11.02.41:444][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.02-11.02.41:444][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.02-11.02.41:444][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.02-11.02.41:890][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.02-11.02.41:903][  0]LogInit: Object subsystem initialized
+[2015.12.02-11.02.41:905][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-11.02.41:905][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.02-11.02.41:929][  0]LogInit: Computer: OWNER-PC
+[2015.12.02-11.02.41:929][  0]LogInit: User: Owner
+[2015.12.02-11.02.41:929][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.02-11.02.41:929][  0]LogInit: High frequency timer resolution =2.732460 MHz
+[2015.12.02-11.02.41:929][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.12.02-11.02.41:929][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.02-11.02.41:929][  0]LogMemory: Process Physical Memory: 57.39 MB used, 57.39 MB peak
+[2015.12.02-11.02.41:929][  0]LogMemory: Process Virtual Memory: 57.60 MB used, 57.60 MB peak
+[2015.12.02-11.02.41:929][  0]LogMemory: Physical Memory: 4139.55 MB used, 12283.49 MB total
+[2015.12.02-11.02.41:929][  0]LogMemory: Virtual Memory: 350.52 MB used, 8388608.00 MB total
+[2015.12.02-11.02.43:360][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2015.12.02-11.02.44:209][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2015.12.02-11.02.44:209][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.12.02-11.02.44:224][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.02-11.02.44:244][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.02-11.02.44:244][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.02-11.02.44:259][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.02-11.02.45:150][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Intermediate/Shaders/WorkingDirectory/4800/).
+[2015.12.02-11.02.45:150][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/035C547244D4C65D5B09BCBB9C0CAC97/'.
+[2015.12.02-11.02.45:194][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.02-11.03.19:982][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.02-11.03.19:988][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.02-11.03.19:995][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.02-11.03.20:001][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.02-11.03.20:142][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.02-11.03.20:219][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.02-11.03.20:224][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.02-11.03.20:314][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.02-11.03.20:519][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.02-11.03.20:548][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.02-11.03.20:594][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.02-11.03.20:797][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.02-11.03.20:797][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.02-11.03.20:810][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.02-11.03.21:266][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.02-11.03.21:271][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.02-11.03.21:276][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.02-11.03.21:452][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.02-11.03.21:452][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.02-11.03.31:880][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache: Loaded boot cache 11.34s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.02-11.03.43:265][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.02-11.03.43:482][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.02-11.03.43:522][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.02-11.04.09:059][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-11.04.09:072][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.02-11.04.09:689][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.02-11.04.09:689][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.02-11.04.18:654][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.02-11.07.38:799][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.02-11.07.48:369][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.12.02-11.08.10:060][  0]SourceControl: Info Source control is disabled
+[2015.12.02-11.08.10:060][  0]SourceControl: Info Source control is disabled
+[2015.12.02-11.08.10:676][  0]SourceControl: Info Source control is disabled
+[2015.12.02-11.08.10:786][  0]SourceControl: Info Source control is disabled
+[2015.12.02-11.08.19:174][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.02-11.08.19:174][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.02-11.08.26:543][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 4.40s
+[2015.12.02-11.08.26:961][  0]LogEngine: Initializing Engine...
+[2015.12.02-11.08.27:042][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-11.08.30:491][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.02-11.08.36:019][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.02-11.08.37:052][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-11.08.37:060][  0]LogInit: FAudioDevice initialized.
+[2015.12.02-11.08.37:515][  0]LogDerivedDataCache: Saved boot cache 0.46s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-11.08.37:890][  0]LogInit: Texture streaming: Enabled
+[2015.12.02-11.08.38:038][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.02-11.08.38:038][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-11.08.38:039][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b1e705434c200a5e74bb2586ba0bc651|940afd638cf94ce9b4d8f38d9556b043|5d73f152-fa47-49e5-865a-fd1bc20a41b9
+[2015.12.02-11.08.38:039][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.02-11.08.39:242][  0]LogInit: Transaction tracking system initialized
+[2015.12.02-11.08.41:757][  0]BlueprintLog: New page: Editor Load
+[2015.12.02-11.08.48:462][  0]LocalizationService: Info Localization service is disabled
+[2015.12.02-11.08.52:382][  0]LogConsoleResponse:Display: 
+[2015.12.02-11.08.58:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/' took 0.04s
+[2015.12.02-11.08.58:684][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.02-11.09.02:014][  0]SourceControl: Info Source control is disabled
+[2015.12.02-11.09.02:072][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.02-11.09.02:310][  0]LightingResults: New page: Lighting Build
+[2015.12.02-11.09.02:679][  0]MapCheck: New page: Map Check
+[2015.12.02-11.09.02:679][  0]LightingResults: New page: Lighting Build
+[2015.12.02-11.09.02:724][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002512AAC0
+[2015.12.02-11.09.08:823][  0]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-11.09.09:064][  0]LogMaterial:Warning: Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial needed to have new flag set bUsedWithSkeletalMesh !
+[2015.12.02-11.09.09:139][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.12.02-11.09.09:895][  0]MapCheck:Warning: Warning BasicShapeMaterial Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.12.02-11.09.09:941][  0]LogMaterial: 0.046393 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.02-11.09.10:240][  0]LogEditorServer: Finished looking for orphan Actors (0.030 secs)
+[2015.12.02-11.09.10:543][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-11.09.10:773][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 229.817ms to complete.
+[2015.12.02-11.09.10:946][  0]LogFileHelpers: Loading map 'Prototype' took 8.875
+[2015.12.02-11.09.17:747][  0]LogCollectionManager: Loaded 0 collections in 0.009452 seconds
+[2015.12.02-11.09.18:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Collections/' took 0.03s
+[2015.12.02-11.09.18:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Developers/Owner/Collections/' took 0.01s
+[2015.12.02-11.09.18:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Collections/' took 0.04s
+[2015.12.02-11.09.18:348][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000015 seconds
+[2015.12.02-11.09.18:671][  0]LogContentBrowser: Native class hierarchy populated in 0.2102 seconds. Added 1893 classes and 338 folders.
+[2015.12.02-11.09.18:946][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.12.02-11.09.24:475][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0101 seconds. Added 0 classes and 0 folders.
+[2015.12.02-11.09.24:603][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.12.02-11.09.26:997][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.02-11.09.27:698][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.02-11.09.27:963][  0]LogLoad: Full Startup: 412.17 seconds (BP compile: 0.76 seconds)
+[2015.12.02-11.09.28:315][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-11.09.30:315][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.02-11.09.32:448][  0]LogRenderer: Reallocating scene render targets to support 1236x544 (Frame:2).
+[2015.12.02-11.09.36:184][  7]LogAssetRegistry: Asset discovery search completed in 107.8251 seconds
+[2015.12.02-11.09.36:226][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.02-11.09.36:226][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.042181 seconds (updated 0 objects)
+[2015.12.02-11.20.06:047][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.20.06:048][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-11.20.06:089][ 25]PIE: New page: PIE session: Prototype (3 Dec 2015 3:20:06 am)
+[2015.12.02-11.20.06:090][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-11.20.06:096][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006815s)
+[2015.12.02-11.20.06:098][ 25]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-11.20.06:098][ 25]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2015.12.02-11.20.06:098][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008761s)
+[2015.12.02-11.20.06:098][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-11.20.06:098][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-11.20.06:165][ 25]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-11.20.06:169][ 25]LogInit: FAudioDevice initialized.
+[2015.12.02-11.20.06:340][ 25]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-11.20.06:358][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-19.20.06
+[2015.12.02-11.20.06:358][ 25]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.20.06:358][ 25]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.20.06:374][ 25]LogWorld: Bringing up level for play took: 0.022592
+[2015.12.02-11.20.53:803][ 25]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: MyNavData [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\AIModule\Private\Navigation\PathFollowingComponent.cpp] [Line: 511]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-AIModule.dll!UPathFollowingComponent::RecacheNavigationData() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\aimodule\private\navigation\pathfollowingcomponent.cpp:511]
+UE4Editor-AIModule.dll!TBaseUObjectMethodDelegateInstance<0,UPathFollowingComponent,void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:772]
+UE4Editor-Engine.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:809]
+UE4Editor-Engine.dll!UNavigationSystem::OnWorldInitDone() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\ai\navigation\navigationsystem.cpp:719]
+UE4Editor-Engine.dll!UNavigationSystem::InitializeForWorld() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\ai\navigation\navigationsystem.cpp:2252]
+UE4Editor-Engine.dll!UGameInstance::StartPIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\gameinstance.cpp:251]
+UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:3012]
+UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:2259]
+UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:1048]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorengine.cpp:1244]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\unrealedengine.cpp:361]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2427]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+
+[2015.12.02-11.20.56:019][ 25]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 50.361
+[2015.12.02-11.20.56:019][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.21.36:262][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.21.36:346][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.21.36:372][ 57]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034722AC0
+[2015.12.02-11.22.10:552][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.22.10:552][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-11.22.10:552][438]PIE: New page: PIE session: Prototype (3 Dec 2015 3:22:10 am)
+[2015.12.02-11.22.10:552][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-11.22.10:558][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005884s)
+[2015.12.02-11.22.10:559][438]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-11.22.10:559][438]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2015.12.02-11.22.10:559][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007012s)
+[2015.12.02-11.22.10:559][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-11.22.10:591][438]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-11.22.10:596][438]LogInit: FAudioDevice initialized.
+[2015.12.02-11.22.10:664][438]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-11.22.10:668][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-19.22.10
+[2015.12.02-11.22.10:668][438]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.22.10:668][438]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.22.10:669][438]LogWorld: Bringing up level for play took: 0.003484
+[2015.12.02-11.22.10:695][438]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 1.037
+[2015.12.02-11.22.10:695][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.22.10:717][439]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:4581).
+[2015.12.02-11.22.54:995][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.22.55:110][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.22.55:139][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D85E8E0
+[2015.12.02-11.25.22:558][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-11.25.23:414][751]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.25.23:414][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-11.25.23:415][751]PIE: New page: PIE session: Prototype (3 Dec 2015 3:25:23 am)
+[2015.12.02-11.25.23:415][751]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-11.25.23:420][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004896s)
+[2015.12.02-11.25.23:421][751]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-11.25.23:421][751]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2015.12.02-11.25.23:421][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006200s)
+[2015.12.02-11.25.23:421][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-11.25.23:466][751]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-11.25.23:472][751]LogInit: FAudioDevice initialized.
+[2015.12.02-11.25.23:523][751]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-11.25.23:533][751]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-19.25.23
+[2015.12.02-11.25.23:534][751]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.25.23:535][751]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.25.23:539][751]LogWorld: Bringing up level for play took: 0.013828
+[2015.12.02-11.25.23:585][751]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.075
+[2015.12.02-11.25.23:585][751]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.29.30:841][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.29.30:933][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.29.31:050][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000166765C0
+[2015.12.02-11.57.23:460][842]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-11.57.23:490][842]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.030
+[2015.12.02-11.57.23:497][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UserInterface/HUD] ([1] browsable assets)...
+[2015.12.02-11.57.23:497][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UserInterface/HUD]
+[2015.12.02-11.57.23:538][842]LogSavePackage: Save=32.977245ms
+[2015.12.02-11.57.23:538][842]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD_Auto107C066C44F4B57BCEA1E2BAD764F0EA0.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto1.uasset'
+[2015.12.02-11.57.23:539][842]LogSavePackage: Total save time: 39.478343ms
+[2015.12.02-11.57.23:539][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto1.uasset
+[2015.12.02-11.57.23:542][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UserInterface/MainMenu] ([1] browsable assets)...
+[2015.12.02-11.57.23:542][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UserInterface/MainMenu]
+[2015.12.02-11.57.23:555][842]LogSavePackage: Save=11.130630ms
+[2015.12.02-11.57.23:555][842]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/MainMenu_Auto1CD38E5F84769AEED9D9DA0A840918118.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/MainMenu_Auto1.uasset'
+[2015.12.02-11.57.23:556][842]LogSavePackage: Total save time: 12.213171ms
+[2015.12.02-11.57.23:556][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/MainMenu_Auto1.uasset
+[2015.12.02-11.57.23:559][842]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UserInterface/PauseMenu] ([1] browsable assets)...
+[2015.12.02-11.57.23:559][842]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UserInterface/PauseMenu]
+[2015.12.02-11.57.23:582][842]LogSavePackage: Save=21.539930ms
+[2015.12.02-11.57.23:582][842]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/PauseMenu_Auto11531306340A20814F0FD7C950A027C32.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/PauseMenu_Auto1.uasset'
+[2015.12.02-11.57.23:583][842]LogSavePackage: Total save time: 23.382962ms
+[2015.12.02-11.57.23:583][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/PauseMenu_Auto1.uasset
+[2015.12.02-11.57.23:583][842]LogFileHelpers: Auto-saving content packages took 0.093
+[2015.12.02-11.57.46:284][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.57.46:284][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-11.57.46:285][258]PIE: New page: PIE session: Prototype (3 Dec 2015 3:57:46 am)
+[2015.12.02-11.57.46:285][258]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-11.57.46:291][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006026s)
+[2015.12.02-11.57.46:292][258]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-11.57.46:292][258]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2015.12.02-11.57.46:292][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007387s)
+[2015.12.02-11.57.46:330][258]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-11.57.46:335][258]LogInit: FAudioDevice initialized.
+[2015.12.02-11.57.46:380][258]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-11.57.46:387][258]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-19.57.46
+[2015.12.02-11.57.46:387][258]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.57.46:388][258]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-11.57.46:390][258]LogWorld: Bringing up level for play took: 0.008018
+[2015.12.02-11.57.46:428][258]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.749
+[2015.12.02-11.57.46:428][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.57.49:704][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.57.49:828][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-11.57.49:909][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000166CF920
+[2015.12.02-11.58.04:537][612]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-11.58.06:010][612]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.12.02-11.58.14:358][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-11.58.20:501][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.02-11.58.27:068][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.02-11.58.29:725][573]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-11.58.29:810][573]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CollisionCylinder and CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-11.58.29:810][573]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.Arrow and ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-11.58.29:810][573]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CharMoveComp and CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-11.58.29:810][573]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CharacterMesh0 and SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-11.58.29:896][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.02-11.58.30:005][573]BlueprintEditorCompileResults: Info [3354.18] Compile of Cubeasaurus successful! [in 279 ms]
+[2015.12.02-11.58.31:843][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-11.59.30:319][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.02-11.59.38:637][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.02-12.00.07:456][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.02-12.00.10:170][640]LogTemp: Dropped R_Move on Category Movement/ Aim
+[2015.12.02-12.00.10:206][640]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.02-12.00.11:963][723]LogTemp: Dropped Target_Rot on Category Movement/ Aim
+[2015.12.02-12.00.11:988][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.02-12.00.34:599][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.02-12.00.37:334][906]LogTemp: Dropped HUD Reference on Category User Interface
+[2015.12.02-12.00.37:356][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.02-12.02.23:480][742]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-12.02.23:553][742]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CollisionCylinder and CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-12.02.23:553][742]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.Arrow and ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-12.02.23:553][742]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CharMoveComp and CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-12.02.23:553][742]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-12.02.23:631][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.02-12.02.23:709][742]BlueprintEditorCompileResults: Info [3587.88] Compile of Cubeasaurus successful! [in 229 ms]
+[2015.12.02-12.02.44:776][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.02.49:467][133]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-12.02.49:618][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.02-12.02.49:691][133]BlueprintEditorCompileResults: Info [3613.86] Compile of Cubeasaurus successful! [in 224 ms]
+[2015.12.02-12.02.50:545][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Cubeasaurus" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset" SILENT=true
+[2015.12.02-12.02.50:913][165]LogSavePackage: Save=230.631012ms
+[2015.12.02-12.02.50:913][165]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/CubeasaurusD6070E4948C363D7E4BBB98F448049E1.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset'
+[2015.12.02-12.02.50:916][165]LogSavePackage: Total save time: 369.932588ms
+[2015.12.02-12.02.50:916][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset
+[2015.12.02-12.07.19:100][785]LogEditorTransaction: Undo Resize Widget
+[2015.12.02-12.07.37:332][348]LogEditorTransaction: Undo Resize Widget
+[2015.12.02-12.07.37:845][362]LogEditorTransaction: Undo Resize Widget
+[2015.12.02-12.07.51:548][782]LogEditorTransaction: Undo Resize Widget
+[2015.12.02-12.08.27:948][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.08.28:194][111]LogSavePackage: Save=164.680542ms
+[2015.12.02-12.08.28:194][111]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Prototype_Auto2DC732BE441D8D94DBBECBA90AFD3802D.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap'
+[2015.12.02-12.08.28:198][111]LogSavePackage: Total save time: 191.132534ms
+[2015.12.02-12.08.28:198][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto2.umap
+[2015.12.02-12.08.28:202][111]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.254
+[2015.12.02-12.08.28:202][111]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.254
+[2015.12.02-12.08.28:212][111]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UserInterface/HUD] ([1] browsable assets)...
+[2015.12.02-12.08.28:212][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UserInterface/HUD]
+[2015.12.02-12.08.28:232][111]LogSavePackage: Save=17.774826ms
+[2015.12.02-12.08.28:232][111]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD_Auto2D26D98D14237E5D6BC16839FD9C91F5A.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto2.uasset'
+[2015.12.02-12.08.28:233][111]LogSavePackage: Total save time: 19.343741ms
+[2015.12.02-12.08.28:233][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto2.uasset
+[2015.12.02-12.08.28:233][111]LogFileHelpers: Auto-saving content packages took 0.028
+[2015.12.02-12.15.07:149][571]LogEditorTransaction: Undo Edit Bar Fill Type
+[2015.12.02-12.15.45:658][ 59]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.16.13:537][725]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.17.40:940][701]LogEditorTransaction: Undo Move Widget
+[2015.12.02-12.17.41:540][719]LogEditorTransaction: Undo Move Widget
+[2015.12.02-12.17.42:161][738]LogEditorTransaction: Undo Move Widget
+[2015.12.02-12.17.42:567][749]LogEditorTransaction: Undo Move Widget
+[2015.12.02-12.17.43:041][764]LogEditorTransaction: Undo Edit A
+[2015.12.02-12.17.43:525][778]LogEditorTransaction: Undo Edit B
+[2015.12.02-12.17.43:977][790]LogEditorTransaction: Undo Edit G
+[2015.12.02-12.17.44:370][801]LogEditorTransaction: Undo Edit R
+[2015.12.02-12.17.44:802][813]LogEditorTransaction: Undo Edit G
+[2015.12.02-12.17.45:263][828]LogEditorTransaction: Undo Edit R
+[2015.12.02-12.17.46:504][869]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.17.47:100][885]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.17.49:185][949]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.17.49:851][970]LogEditorTransaction: Undo Edit Size Rule
+[2015.12.02-12.17.50:392][989]LogEditorTransaction: Undo Move Widget
+[2015.12.02-12.18.55:123][307]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.055
+[2015.12.02-12.18.55:130][307]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UserInterface/HUD] ([1] browsable assets)...
+[2015.12.02-12.18.55:130][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UserInterface/HUD]
+[2015.12.02-12.18.55:162][307]LogSavePackage: Save=28.782490ms
+[2015.12.02-12.18.55:162][307]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD_Auto3F584C0964576A495B0AB9C8BB7408C70.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto3.uasset'
+[2015.12.02-12.18.55:163][307]LogSavePackage: Total save time: 30.238319ms
+[2015.12.02-12.18.55:163][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/UserInterface/HUD_Auto3.uasset
+[2015.12.02-12.18.55:163][307]LogFileHelpers: Auto-saving content packages took 0.040
+[2015.12.02-12.22.02:426][690]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.22.02:669][690]BlueprintEditorCompileResults: Info [4766.83] Compile of HUD successful! [in 242 ms]
+[2015.12.02-12.22.03:033][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.22.03:058][702]LogSavePackage: Save=19.878059ms
+[2015.12.02-12.22.03:058][702]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD19B885A3448CDA0BECD0C8AA5DAB6985.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.22.03:075][702]LogSavePackage: Total save time: 36.709413ms
+[2015.12.02-12.22.03:075][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.25.14:074][368]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.25.14:276][368]BlueprintEditorCompileResults: Info [4958.44] Compile of HUD successful! [in 202 ms]
+[2015.12.02-12.25.14:553][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.25.14:612][380]LogSavePackage: Save=35.447544ms
+[2015.12.02-12.25.14:612][380]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUDEBC6ED054DE1E484A87CA6B4F9B0DE45.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.25.14:615][380]LogSavePackage: Total save time: 60.772713ms
+[2015.12.02-12.25.14:615][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.27.09:142][169]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.27.09:332][169]BlueprintEditorCompileResults: Info [5073.49] Compile of HUD successful! [in 190 ms]
+[2015.12.02-12.27.09:825][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.27.09:877][185]LogSavePackage: Save=41.285507ms
+[2015.12.02-12.27.09:877][185]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD45EA829F42C15EBD9C748E86C3568395.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.27.09:882][185]LogSavePackage: Total save time: 55.432469ms
+[2015.12.02-12.27.09:882][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.27.52:902][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.27.52:902][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.27.52:902][760]PIE: New page: PIE session: Prototype (3 Dec 2015 4:27:52 am)
+[2015.12.02-12.27.52:903][760]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.27.52:908][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005149s)
+[2015.12.02-12.27.52:908][760]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.27.52:909][760]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2015.12.02-12.27.52:909][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006192s)
+[2015.12.02-12.27.52:909][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.27.52:962][760]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.27.52:967][760]LogInit: FAudioDevice initialized.
+[2015.12.02-12.27.53:017][760]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.27.53:022][760]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.27.53
+[2015.12.02-12.27.53:023][760]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.27.53:023][760]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.27.53:024][760]LogWorld: Bringing up level for play took: 0.005503
+[2015.12.02-12.27.53:157][760]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.541
+[2015.12.02-12.27.53:157][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.28.05:270][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.28.05:384][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.28.05:432][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000FE267240
+[2015.12.02-12.28.52:837][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.29.11:442][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.02-12.29.30:910][215]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.12.02-12.29.44:806][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.12.02-12.29.53:004][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.12.02-12.31.33:482][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.12.02-12.31.34:948][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.12.02-12.31.39:215][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.12.02-12.33.59:033][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.12.02-12.33.59:033][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-12.33.59:329][864]LogSavePackage: Save=201.205505ms
+[2015.12.02-12.33.59:330][864]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Prototype_Auto4D3293A614C811FDD78A886A96D2F9682.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto4.umap'
+[2015.12.02-12.33.59:335][864]LogSavePackage: Total save time: 231.904950ms
+[2015.12.02-12.33.59:335][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto4.umap
+[2015.12.02-12.33.59:338][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.305
+[2015.12.02-12.33.59:338][864]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.305
+[2015.12.02-12.33.59:354][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Cubeasaurus] ([1] browsable assets)...
+[2015.12.02-12.33.59:386][864]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Cubeasaurus.Cubeasaurus]
+[2015.12.02-12.33.59:386][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Cubeasaurus]
+[2015.12.02-12.33.59:700][864]LogSavePackage: Save=298.977112ms
+[2015.12.02-12.33.59:700][864]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Cubeasaurus_Auto4364814E34BE0CF7B3984AA97281685AB.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/Character/Cubeasaurus_Auto4.uasset'
+[2015.12.02-12.33.59:703][864]LogSavePackage: Total save time: 315.348439ms
+[2015.12.02-12.33.59:703][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/Character/Cubeasaurus_Auto4.uasset
+[2015.12.02-12.33.59:703][864]LogFileHelpers: Auto-saving content packages took 0.362
+[2015.12.02-12.34.06:187][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.35.12:624][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.12.02-12.35.13:825][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.12.02-12.35.24:027][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.12.02-12.38.17:112][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.12.02-12.38.30:711][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.12.02-12.38.33:289][301]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-12.38.33:538][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.12.02-12.38.33:600][301]BlueprintEditorCompileResults: Info [5757.75] Compile of Cubeasaurus successful! [in 311 ms]
+[2015.12.02-12.38.34:283][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Cubeasaurus" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset" SILENT=true
+[2015.12.02-12.38.34:613][330]LogSavePackage: Save=314.126465ms
+[2015.12.02-12.38.34:613][330]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/CubeasaurusC4CC128F421E1F05E66A8F8AFB638EFA.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset'
+[2015.12.02-12.38.34:620][330]LogSavePackage: Total save time: 335.659076ms
+[2015.12.02-12.38.34:620][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/Character/Cubeasaurus.uasset
+[2015.12.02-12.38.55:002][944]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.38.55:110][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.38.55:168][944]BlueprintEditorCompileResults: Info [5779.32] Compile of HUD successful! [in 165 ms]
+[2015.12.02-12.38.55:440][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.38.55:494][955]LogSavePackage: Save=34.999233ms
+[2015.12.02-12.38.55:494][955]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD2F285416463D608E38B676B539A0FAE3.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.38.55:499][955]LogSavePackage: Total save time: 57.057742ms
+[2015.12.02-12.38.55:499][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.39.43:199][648]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.39.43:458][648]BlueprintEditorCompileResults: Info [5827.61] Compile of HUD successful! [in 259 ms]
+[2015.12.02-12.39.45:224][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.39.45:286][699]LogSavePackage: Save=43.342995ms
+[2015.12.02-12.39.45:286][699]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUDB125533B443C53A906AA9088C11ACCE2.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.39.45:289][699]LogSavePackage: Total save time: 63.732311ms
+[2015.12.02-12.39.45:289][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.39.48:969][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.39.48:969][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.39.48:969][837]PIE: New page: PIE session: Prototype (3 Dec 2015 4:39:48 am)
+[2015.12.02-12.39.48:969][837]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.39.48:976][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006608s)
+[2015.12.02-12.39.48:977][837]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.39.48:977][837]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2015.12.02-12.39.48:978][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008809s)
+[2015.12.02-12.39.49:041][837]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.39.49:046][837]LogInit: FAudioDevice initialized.
+[2015.12.02-12.39.49:092][837]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.39.49:097][837]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.39.49
+[2015.12.02-12.39.49:097][837]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.39.49:097][837]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.39.49:098][837]LogWorld: Bringing up level for play took: 0.003905
+[2015.12.02-12.39.49:181][837]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.524
+[2015.12.02-12.39.49:181][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.39.55:850][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.39.55:955][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.39.56:091][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000010D732700
+[2015.12.02-12.40.21:590][ 66]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.40.21:713][ 66]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.40.21:813][ 66]BlueprintEditorCompileResults: Info [5865.96] Compile of HUD successful! [in 222 ms]
+[2015.12.02-12.40.37:957][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.40.37:957][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.40.37:957][578]PIE: New page: PIE session: Prototype (3 Dec 2015 4:40:37 am)
+[2015.12.02-12.40.37:957][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.40.37:967][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009428s)
+[2015.12.02-12.40.37:968][578]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.40.37:968][578]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2015.12.02-12.40.37:968][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.011261s)
+[2015.12.02-12.40.37:968][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.40.38:036][578]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.40.38:042][578]LogInit: FAudioDevice initialized.
+[2015.12.02-12.40.38:089][578]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.40.38:094][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.40.38
+[2015.12.02-12.40.38:094][578]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.40.38:094][578]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.40.38:096][578]LogWorld: Bringing up level for play took: 0.005799
+[2015.12.02-12.40.38:228][578]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.524
+[2015.12.02-12.40.38:228][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.40.40:976][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.40.41:097][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.40.41:141][725]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000F6239DA0
+[2015.12.02-12.40.56:423][203]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.40.56:429][203]LogBlueprint:Warning: [compiler HUD] Warning 'Cubeasaurus' does not inherit from 'Player Controller' ( Cast To Cubeasaurus  would always fail).
+[2015.12.02-12.40.56:509][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.40.56:583][203]LogBlueprint:Warning: [compiler HUD] Warning [5900.73] Compile of HUD successful, but with 1 Warning(s) [in 159 ms]
+[2015.12.02-12.40.56:583][203]BlueprintEditorCompileResults:Warning: Warning 'Cubeasaurus' does not inherit from 'Player Controller' ( Cast To Cubeasaurus  would always fail).
+[2015.12.02-12.40.56:584][203]BlueprintEditorCompileResults:Warning: Warning [5900.73] Compile of HUD successful, but with 1 Warning(s) [in 159 ms]
+[2015.12.02-12.40.56:928][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.40.56:977][219]LogSavePackage: Save=30.784348ms
+[2015.12.02-12.40.56:977][219]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUDE71642F74C41B38E906F22991F9E384E.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.40.56:986][219]LogSavePackage: Total save time: 55.607770ms
+[2015.12.02-12.40.56:986][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.41.18:534][870]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.41.18:638][870]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.41.18:721][870]BlueprintEditorCompileResults: Info [5922.87] Compile of HUD successful! [in 186 ms]
+[2015.12.02-12.41.24:625][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.41.24:680][161]LogSavePackage: Save=25.539989ms
+[2015.12.02-12.41.24:680][161]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUDDDC9B9424736FAA67BD421BF08F5563C.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.41.24:683][161]LogSavePackage: Total save time: 46.162065ms
+[2015.12.02-12.41.24:683][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.41.27:277][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.41.27:277][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.41.27:278][293]PIE: New page: PIE session: Prototype (3 Dec 2015 4:41:27 am)
+[2015.12.02-12.41.27:278][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.41.27:295][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017437s)
+[2015.12.02-12.41.27:299][293]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.41.27:299][293]LogPlayLevel: PIE: World Init took: (0.004040s)
+[2015.12.02-12.41.27:300][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.022082s)
+[2015.12.02-12.41.27:300][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.41.27:377][293]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.41.27:381][293]LogInit: FAudioDevice initialized.
+[2015.12.02-12.41.27:422][293]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.41.27:427][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.41.27
+[2015.12.02-12.41.27:427][293]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.41.27:428][293]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.41.27:429][293]LogWorld: Bringing up level for play took: 0.005570
+[2015.12.02-12.41.27:487][293]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.218
+[2015.12.02-12.41.27:487][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.41.36:178][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.41.36:289][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.41.36:363][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000010630F600
+[2015.12.02-12.42.09:810][195]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.42.09:921][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.42.10:026][195]BlueprintEditorCompileResults: Info [5974.17] Compile of HUD successful! [in 216 ms]
+[2015.12.02-12.42.10:365][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.42.10:424][204]LogSavePackage: Save=42.691933ms
+[2015.12.02-12.42.10:424][204]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD0A8F6F334DF79E6305F2CDB994117D86.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.42.10:432][204]LogSavePackage: Total save time: 64.778622ms
+[2015.12.02-12.42.10:432][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.42.12:715][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.42.12:715][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.42.12:715][299]PIE: New page: PIE session: Prototype (3 Dec 2015 4:42:12 am)
+[2015.12.02-12.42.12:715][299]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.42.12:721][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005971s)
+[2015.12.02-12.42.12:722][299]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.42.12:722][299]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2015.12.02-12.42.12:722][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007352s)
+[2015.12.02-12.42.12:722][299]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.42.12:775][299]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.42.12:780][299]LogInit: FAudioDevice initialized.
+[2015.12.02-12.42.12:823][299]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.42.12:826][299]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.42.12
+[2015.12.02-12.42.12:827][299]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.42.12:827][299]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.42.12:827][299]LogWorld: Bringing up level for play took: 0.002884
+[2015.12.02-12.42.12:909][299]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype -0.797
+[2015.12.02-12.42.12:909][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.42.20:578][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.42.20:687][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.42.20:741][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000111DD3060
+[2015.12.02-12.42.29:497][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.02-12.43.08:618][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.43.08:669][467]LogSavePackage: Save=32.823902ms
+[2015.12.02-12.43.08:669][467]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUDD23BAD6543497D0FF8A06CA611B3CF0F.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.43.08:672][467]LogSavePackage: Total save time: 50.553713ms
+[2015.12.02-12.43.08:672][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.43.11:612][580]BlueprintLog: New page: Compile HUD
+[2015.12.02-12.43.11:712][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.43.11:812][580]BlueprintEditorCompileResults: Info [6035.96] Compile of HUD successful! [in 199 ms]
+[2015.12.02-12.43.14:305][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.43.14:363][656]LogSavePackage: Save=30.131456ms
+[2015.12.02-12.43.14:363][656]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD4F39CA3945B28424621657BA0AC1A57E.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.43.14:366][656]LogSavePackage: Total save time: 55.770990ms
+[2015.12.02-12.43.14:366][656]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.43.44:087][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.43.44:087][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.43.44:087][ 48]PIE: New page: PIE session: Prototype (3 Dec 2015 4:43:44 am)
+[2015.12.02-12.43.44:088][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.43.44:093][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005813s)
+[2015.12.02-12.43.44:094][ 48]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.43.44:095][ 48]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2015.12.02-12.43.44:095][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.007146s)
+[2015.12.02-12.43.44:095][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.43.44:170][ 48]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.43.44:174][ 48]LogInit: FAudioDevice initialized.
+[2015.12.02-12.43.44:220][ 48]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.43.44:225][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.43.44
+[2015.12.02-12.43.44:225][ 48]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.43.44:225][ 48]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.43.44:226][ 48]LogWorld: Bringing up level for play took: 0.003969
+[2015.12.02-12.43.44:283][ 48]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.577
+[2015.12.02-12.43.44:284][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.43.49:677][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.43.49:786][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.43.49:836][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000001080854E0
+[2015.12.02-12.44.08:769][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UserInterface/HUD" FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset" SILENT=true
+[2015.12.02-12.44.08:818][205]LogSavePackage: Save=29.262276ms
+[2015.12.02-12.44.08:818][205]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/HUD3E6C7B2A455885103C964C9FF52466E0.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset'
+[2015.12.02-12.44.08:825][205]LogSavePackage: Total save time: 54.306008ms
+[2015.12.02-12.44.08:825][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/HUD.uasset
+[2015.12.02-12.44.13:350][449]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.02-12.44.53:724][955]BlueprintLog: New page: Compile Prototype
+[2015.12.02-12.44.53:806][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-12.44.53:806][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.44.53:860][955]BlueprintEditorCompileResults: Info [6138.01] Compile of Prototype successful! [in 134 ms]
+[2015.12.02-12.44.57:286][109]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.02-12.44.59:934][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.44.59:934][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.44.59:934][255]PIE: New page: PIE session: Prototype (3 Dec 2015 4:44:59 am)
+[2015.12.02-12.44.59:934][255]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.44.59:941][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006511s)
+[2015.12.02-12.44.59:942][255]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.44.59:942][255]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2015.12.02-12.44.59:943][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.008394s)
+[2015.12.02-12.45.00:005][255]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.45.00:009][255]LogInit: FAudioDevice initialized.
+[2015.12.02-12.45.00:050][255]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.45.00:053][255]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.45.00
+[2015.12.02-12.45.00:054][255]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.45.00:054][255]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.45.00:055][255]LogWorld: Bringing up level for play took: 0.003486
+[2015.12.02-12.45.00:144][255]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.437
+[2015.12.02-12.45.00:144][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.03:294][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.03:409][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.03:469][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000111DD34C0
+[2015.12.02-12.45.09:484][749]LogEditorViewport: Clicking on Actor (LMB): Cubeasaurus_C (Cubeasaurus)
+[2015.12.02-12.45.10:885][830]Cmd: DELETE
+[2015.12.02-12.45.10:885][830]Cmd: ACTOR DELETE
+[2015.12.02-12.45.11:036][830]LogEditorActor: Deleted Actor: Cubeasaurus_C
+[2015.12.02-12.45.11:037][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-12.45.11:086][830]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.12.02-12.45.11:909][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.11:909][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-12.45.11:909][885]PIE: New page: PIE session: Prototype (3 Dec 2015 4:45:11 am)
+[2015.12.02-12.45.11:909][885]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-12.45.11:914][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004522s)
+[2015.12.02-12.45.11:915][885]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-12.45.11:915][885]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2015.12.02-12.45.11:915][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.006007s)
+[2015.12.02-12.45.11:982][885]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-12.45.11:988][885]LogInit: FAudioDevice initialized.
+[2015.12.02-12.45.12:044][885]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-12.45.12:048][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-20.45.12
+[2015.12.02-12.45.12:048][885]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.45.12:048][885]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-12.45.12:048][885]LogWorld: Bringing up level for play took: 0.002542
+[2015.12.02-12.45.12:136][885]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 0.428
+[2015.12.02-12.45.12:136][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.19:370][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.19:452][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-12.45.19:522][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F7920C0
+[2015.12.02-12.45.43:429][511]LogSavePackage: Save=150.253616ms
+[2015.12.02-12.45.43:429][511]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Prototype_Auto5C510679B49FD963CEBE2B697AB901181.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto5.umap'
+[2015.12.02-12.45.43:430][511]LogSavePackage: Total save time: 184.423558ms
+[2015.12.02-12.45.43:430][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Maps/Prototype_Auto5.umap
+[2015.12.02-12.45.43:432][511]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Prototype' took 0.251
+[2015.12.02-12.45.43:432][511]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2015.12.02-12.45.43:439][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameMode/GameMode_Default] ([1] browsable assets)...
+[2015.12.02-12.45.43:439][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameMode/GameMode_Default]
+[2015.12.02-12.45.43:476][511]LogSavePackage: Save=14.658587ms
+[2015.12.02-12.45.43:476][511]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/GameMode_Default_Auto5E516C74D47D986143A5C7CB10329B188.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/GameMode/GameMode_Default_Auto5.uasset'
+[2015.12.02-12.45.43:511][511]LogSavePackage: Total save time: 70.047136ms
+[2015.12.02-12.45.43:511][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Autosaves/Game/Blueprints/GameMode/GameMode_Default_Auto5.uasset
+[2015.12.02-12.45.43:511][511]LogFileHelpers: Auto-saving content packages took 0.078
+[2015.12.02-12.46.47:033][ 10]BlueprintLog: New page: Compile Prototype
+[2015.12.02-12.46.47:184][ 10]BlueprintEditorCompileResults: Info [6251.33] Compile of Prototype successful! [in 150 ms]
+[2015.12.02-12.49.42:119][593]LogSavePackage: Save=19.061213ms
+[2015.12.02-12.49.42:119][593]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/GameMode_DefaultE4CFEDFF4CB99DF32FA24C9AF28B0E14.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/GameMode/GameMode_Default.uasset'
+[2015.12.02-12.49.42:125][593]LogSavePackage: Total save time: 43.797895ms
+[2015.12.02-12.49.42:125][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/GameMode/GameMode_Default.uasset
+[2015.12.02-12.49.46:521][920]LogSavePackage: Save=14.800217ms
+[2015.12.02-12.49.46:521][920]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/PauseMenu2A50B2EE4E3B2B47C02E71A695016A3D.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/PauseMenu.uasset'
+[2015.12.02-12.49.46:526][920]LogSavePackage: Total save time: 20.406153ms
+[2015.12.02-12.49.46:526][920]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/PauseMenu.uasset
+[2015.12.02-12.49.48:944][ 84]LogSavePackage: Save=13.527371ms
+[2015.12.02-12.49.48:944][ 84]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/MainMenuFE6B6CCE44FBA067A343E997317EE039.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/MainMenu.uasset'
+[2015.12.02-12.49.48:951][ 84]LogSavePackage: Total save time: 20.726010ms
+[2015.12.02-12.49.48:951][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/MainMenu.uasset
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_216.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_0.WidgetTree_217.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_218.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_1.WidgetTree_219.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_220.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_2.WidgetTree_221.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_222.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_3.WidgetTree_223.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_224.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_4.WidgetTree_225.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_226.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_5.WidgetTree_227.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_228.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_6.WidgetTree_229.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_230.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_7.WidgetTree_231.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_232.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_8.WidgetTree_233.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_234.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_9.WidgetTree_235.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_236.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_10.WidgetTree_237.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_238.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30 or CanvasPanel /Engine/Transient.World_11:MainMenu_C_11.WidgetTree_239.CanvasPanel_30
+[2015.12.02-12.51.26:900][251]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.CanvasPanel_30.CanvasPanelSlot_457) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_53).  Import failed...
+[2015.12.02-12.51.26:901][251]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_30.CanvasPanelSlot_457''
+[2015.12.02-12.51.48:850][608]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.VerticalBox_54 or VerticalBox /Game/Blueprints/UserInterface/MainMenu.MainMenu_C:WidgetTree_240.VerticalBox_54
+[2015.12.02-12.51.48:850][608]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.VerticalBox_54 or VerticalBox /Engine/Transient.World_11:MainMenu_C_12.WidgetTree_241.VerticalBox_54
+[2015.12.02-12.51.48:850][608]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UserInterface/MainMenu.MainMenu:WidgetTree.VerticalBox_54.VerticalBoxSlot_56) from referencer (Button /Engine/UMG/Editor/Transient.Button_5).  Import failed...
+[2015.12.02-12.51.48:850][608]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_54.VerticalBoxSlot_56''
+[2015.12.02-12.52.28:981][481]BlueprintLog: New page: Compile MainMenu
+[2015.12.02-12.52.29:133][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E6F2CA0
+[2015.12.02-12.52.29:134][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000F64E1120
+[2015.12.02-12.52.29:170][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DF04D300
+[2015.12.02-12.52.29:170][481]BlueprintEditorCompileResults: Info [6593.31] Compile of MainMenu successful! [in 188 ms]
+[2015.12.02-12.52.29:880][491]LogSavePackage: Save=112.396156ms
+[2015.12.02-12.52.29:880][491]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/MainMenu3B4CE0674045FA7283B0CEA167CECF0F.tmp' to '../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/MainMenu.uasset'
+[2015.12.02-12.52.29:883][491]LogSavePackage: Total save time: 135.331899ms
+[2015.12.02-12.52.29:883][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Blueprints/UserInterface/MainMenu.uasset
+[2015.12.02-12.55.50:714][138]LogEditorTransaction: Undo Rename Widget
+[2015.12.02-12.55.51:356][138]LogCrashTracker: 
+
+
+[2015.12.02-12.55.51:550][138]LogCrashTracker: 
+
+
+[2015.12.02-12.55.51:550][138]LogWindows:Error: === Critical error: ===
+
+
+[2015.12.02-12.55.51:684][138]LogExit: Executing StaticShutdownAfterError
+[2015.12.02-12.55.52:172][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:172][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:172][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:173][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:173][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:173][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:173][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:174][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:174][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:174][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:174][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:175][138]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-12.55.52:210][138]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.12.02-12.55.52:210][138]Log file closed, 12/02/15 20:55:52

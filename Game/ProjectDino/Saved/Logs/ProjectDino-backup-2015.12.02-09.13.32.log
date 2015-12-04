@@ -1,0 +1,316 @@
+﻿[2015.12.02-00.48.09:554][  0]Log file open, 12/02/15 08:48:09
+[2015.12.02-00.48.09:554][  0]LogInit:Display: Running engine for game: ProjectDino
+[2015.12.02-00.48.09:554][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.02-00.48.09:554][  0]LogInit:Display: RandInit(957214228) SRandInit(957214229).
+[2015.12.02-00.48.09:554][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.02-00.48.09:554][  0]LogStats: Stats thread started at 0.792291
+[2015.12.02-00.48.09:554][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-00.48.09:554][  0]LogInit: API Version: 2758231
+[2015.12.02-00.48.09:554][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.02-00.48.09:554][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.02-00.48.09:554][  0]LogInit: Build Configuration: Development
+[2015.12.02-00.48.09:554][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.02-00.48.09:554][  0]LogInit: Command line:  
+[2015.12.02-00.48.09:554][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.02-00.48.09:554][  0]LogInit: Rocket: 1
+[2015.12.02-00.48.09:897][  0]LogInit: Using libcurl 7.41.0
+[2015.12.02-00.48.09:897][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.02-00.48.09:897][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.02-00.48.09:897][  0]LogInit:  - other features:
+[2015.12.02-00.48.09:897][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.02-00.48.09:898][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.02-00.48.09:898][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.02-00.48.09:898][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.02-00.48.09:898][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.02-00.48.09:898][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.02-00.48.09:898][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.02-00.48.09:898][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.02-00.48.09:898][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.02-00.48.09:898][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.02-00.48.10:207][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.02-00.48.10:339][  0]LogInit: Object subsystem initialized
+[2015.12.02-00.48.10:444][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-00.48.10:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.02-00.48.10:585][  0]LogInit: Computer: OWNER-PC
+[2015.12.02-00.48.10:585][  0]LogInit: User: Owner
+[2015.12.02-00.48.10:585][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.02-00.48.10:585][  0]LogInit: High frequency timer resolution =2.732480 MHz
+[2015.12.02-00.48.10:585][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.12.02-00.48.10:594][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.02-00.48.10:594][  0]LogMemory: Process Physical Memory: 57.40 MB used, 57.40 MB peak
+[2015.12.02-00.48.10:594][  0]LogMemory: Process Virtual Memory: 57.60 MB used, 57.60 MB peak
+[2015.12.02-00.48.10:594][  0]LogMemory: Physical Memory: 2910.04 MB used, 12283.49 MB total
+[2015.12.02-00.48.10:594][  0]LogMemory: Virtual Memory: 350.52 MB used, 8388608.00 MB total
+[2015.12.02-00.48.14:522][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2015.12.02-00.48.19:057][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2015.12.02-00.48.19:057][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.12.02-00.48.19:057][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.02-00.48.19:170][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.02-00.48.19:171][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.02-00.48.19:285][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.02-00.48.21:188][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Intermediate/Shaders/WorkingDirectory/3936/).
+[2015.12.02-00.48.21:189][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/0AAFC9CD48AF3638536E62A6D968F945/'.
+[2015.12.02-00.48.21:189][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.02-00.48.40:004][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.02-00.48.40:015][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.02-00.48.40:029][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.02-00.48.40:038][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.02-00.48.40:057][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.02-00.48.40:071][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.02-00.48.40:075][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.02-00.48.40:082][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.02-00.48.40:090][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.02-00.48.40:097][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.02-00.48.40:103][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.02-00.48.40:116][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.02-00.48.40:116][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.02-00.48.40:128][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.02-00.48.40:447][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.02-00.48.40:451][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.02-00.48.40:456][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.02-00.48.40:482][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.02-00.48.40:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.02-00.48.41:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache: Loaded boot cache 0.69s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.02-00.48.42:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.02-00.48.42:841][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.02-00.48.42:916][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.02-00.49.01:090][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.02-00.49.01:146][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.02-00.49.02:313][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.02-00.49.02:313][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.02-00.49.10:210][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.02-00.49.43:374][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.02-00.49.44:062][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2015.12.02-00.49.48:756][  0]SourceControl: Info Source control is disabled
+[2015.12.02-00.49.48:757][  0]SourceControl: Info Source control is disabled
+[2015.12.02-00.49.49:104][  0]SourceControl: Info Source control is disabled
+[2015.12.02-00.49.49:405][  0]SourceControl: Info Source control is disabled
+[2015.12.02-00.49.52:509][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.02-00.49.52:509][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.12.02-00.49.53:441][  0]LogEngine: Initializing Engine...
+[2015.12.02-00.49.53:467][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-00.49.54:678][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.02-00.49.56:032][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.02-00.49.56:102][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-00.49.56:110][  0]LogInit: FAudioDevice initialized.
+[2015.12.02-00.49.56:143][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.02-00.49.56:153][  0]LogInit: Texture streaming: Enabled
+[2015.12.02-00.49.56:300][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.02-00.49.56:300][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.02-00.49.56:300][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b1e705434c200a5e74bb2586ba0bc651|940afd638cf94ce9b4d8f38d9556b043|5d73f152-fa47-49e5-865a-fd1bc20a41b9
+[2015.12.02-00.49.56:300][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.02-00.49.56:645][  0]LogInit: Transaction tracking system initialized
+[2015.12.02-00.49.58:498][  0]BlueprintLog: New page: Editor Load
+[2015.12.02-00.50.04:834][  0]LocalizationService: Info Localization service is disabled
+[2015.12.02-00.50.07:367][  0]LogConsoleResponse:Display: 
+[2015.12.02-00.50.11:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/' took 0.04s
+[2015.12.02-00.50.11:067][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.02-00.50.12:728][  0]SourceControl: Info Source control is disabled
+[2015.12.02-00.50.12:787][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.02-00.50.12:919][  0]LightingResults: New page: Lighting Build
+[2015.12.02-00.50.13:148][  0]MapCheck: New page: Map Check
+[2015.12.02-00.50.13:148][  0]LightingResults: New page: Lighting Build
+[2015.12.02-00.50.13:176][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000295DEAC0
+[2015.12.02-00.50.15:459][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.12.02-00.50.15:766][  0]LogEditorServer: Finished looking for orphan Actors (0.008 secs)
+[2015.12.02-00.50.15:875][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-00.50.15:988][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.966ms to complete.
+[2015.12.02-00.50.15:988][  0]LogFileHelpers: Loading map 'Template_Default' took 3.202
+[2015.12.02-00.50.17:710][  0]LogCollectionManager: Loaded 0 collections in 0.003008 seconds
+[2015.12.02-00.50.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Saved/Collections/' took 0.01s
+[2015.12.02-00.50.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Developers/Owner/Collections/' took 0.01s
+[2015.12.02-00.50.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Collections/' took 0.01s
+[2015.12.02-00.50.17:996][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000059 seconds
+[2015.12.02-00.50.18:114][  0]LogContentBrowser: Native class hierarchy populated in 0.0897 seconds. Added 1893 classes and 338 folders.
+[2015.12.02-00.50.18:300][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.02-00.50.20:533][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.02-00.50.20:605][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.12.02-00.50.21:620][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.02-00.50.21:667][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.02-00.50.21:744][  0]LogLoad: Full Startup: 137.62 seconds (BP compile: 0.61 seconds)
+[2015.12.02-00.50.22:086][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.02-00.50.22:961][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.02-00.50.23:507][  0]LogRenderer: Reallocating scene render targets to support 1236x544 (Frame:2).
+[2015.12.02-00.50.26:134][  5]LogAssetRegistry: Asset discovery search completed in 42.0815 seconds
+[2015.12.02-00.50.26:153][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.02-00.50.26:153][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.018250 seconds (updated 0 objects)
+[2015.12.02-00.57.15:219][347]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.02-00.57.16:769][347]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0146 seconds. Added 107 classes and 0 folders.
+[2015.12.02-00.57.17:789][347]LogMaterial:Warning: Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial needed to have new flag set bUsedWithSkeletalMesh !
+[2015.12.02-00.57.17:790][347]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.12.02-00.57.18:059][347]LogMaterial: 0.063508 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.02-00.57.26:836][789]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-00.57.26:905][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-00.57.26:905][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-00.57.26:972][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036A167A0
+[2015.12.02-00.57.29:371][789]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.02-00.57.29:372][789]LightingResults: New page: Lighting Build
+[2015.12.02-00.57.29:405][789]LoadErrors: New page: Loading map: Prototype.umap
+[2015.12.02-00.57.29:406][789]MapCheck: New page: Map Check
+[2015.12.02-00.57.29:406][789]LightingResults: New page: Lighting Build
+[2015.12.02-00.57.29:434][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000168371A0
+[2015.12.02-00.57.29:603][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.02-00.57.29:856][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-00.57.29:931][789]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.096ms to complete.
+[2015.12.02-00.57.29:931][789]LogFileHelpers: Loading map 'Prototype' took 0.562
+[2015.12.02-00.57.35:635][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-00.57.35:635][402]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-00.57.38:413][402]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/Unreal Projects/ProjectDino/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.02-00.57.38:414][402]LightingResults: New page: Lighting Build
+[2015.12.02-00.57.38:465][402]LoadErrors: New page: Loading map: Prototype.umap
+[2015.12.02-00.57.38:466][402]MapCheck: New page: Map Check
+[2015.12.02-00.57.38:466][402]LightingResults: New page: Lighting Build
+[2015.12.02-00.57.38:501][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000053D47F60
+[2015.12.02-00.57.38:526][402]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-00.57.38:600][402]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.02-00.57.38:889][402]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.02-00.57.38:946][402]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.245ms to complete.
+[2015.12.02-00.57.38:946][402]LogFileHelpers: Loading map 'Prototype' took 0.538
+[2015.12.02-00.59.56:237][432]LogEditorViewport: Clicking on Actor (LMB): Cubeasaurus_C (Cubeasaurus)
+[2015.12.02-01.00.05:752][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.00.05:752][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.00.08:156][145]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-01.00.08:265][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.02-01.00.08:265][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2015.12.02-01.00.08:305][145]BlueprintEditorCompileResults: Info [0724.17] Compile of Cubeasaurus successful! [in 149 ms]
+[2015.12.02-01.07.38:752][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.07.38:752][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.07.40:130][316]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-01.07.40:158][316]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CollisionCylinder and CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.07.40:158][316]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.Arrow and ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.07.40:158][316]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CharMoveComp and CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.07.40:158][316]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_4.CharacterMesh0 and SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.07.40:296][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.02-01.07.40:296][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2015.12.02-01.07.40:328][316]BlueprintEditorCompileResults: Info [1176.18] Compile of Cubeasaurus successful! [in 197 ms]
+[2015.12.02-01.07.43:799][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.07.43:799][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.07.44:878][598]LogRenderer: Reallocating scene render targets to support 1236x756 (Frame:3506).
+[2015.12.02-01.08.00:307][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.02-01.08.00:307][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2015.12.02-01.08.09:034][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.02-01.08.09:034][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
+[2015.12.02-01.08.14:976][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.02-01.08.14:977][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_4) Not registered. Aborting.
+[2015.12.02-01.08.17:336][296]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-01.08.17:367][296]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CollisionCylinder and CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.08.17:367][296]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.Arrow and ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.08.17:367][296]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharMoveComp and CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.08.17:367][296]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.08.17:520][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.02-01.08.17:520][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_5) Not registered. Aborting.
+[2015.12.02-01.08.17:557][296]BlueprintEditorCompileResults: Info [1213.41] Compile of Cubeasaurus successful! [in 220 ms]
+[2015.12.02-01.08.22:428][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-01.08.22:428][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-01.08.22:556][576]PIE: New page: PIE session: Prototype (2 Dec 2015 5:08:22 pm)
+[2015.12.02-01.08.22:556][576]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-01.08.22:560][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004586s)
+[2015.12.02-01.08.22:561][576]LogAIModule: Creating AISystem for world Prototype
+[2015.12.02-01.08.22:561][576]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2015.12.02-01.08.22:561][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.005783s)
+[2015.12.02-01.08.22:561][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.08.22:561][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.08.22:595][576]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.02-01.08.22:601][576]LogInit: FAudioDevice initialized.
+[2015.12.02-01.08.22:750][576]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.02-01.08.22:783][576]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.02-09.08.22
+[2015.12.02-01.08.22:783][576]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-01.08.22:783][576]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.02-01.08.22:813][576]LogWorld: Bringing up level for play took: 0.031621
+[2015.12.02-01.09.09:161][576]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: MyNavData [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\AIModule\Private\Navigation\PathFollowingComponent.cpp] [Line: 511]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-AIModule.dll!UPathFollowingComponent::RecacheNavigationData() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\aimodule\private\navigation\pathfollowingcomponent.cpp:511]
+UE4Editor-AIModule.dll!TBaseUObjectMethodDelegateInstance<0,UPathFollowingComponent,void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:772]
+UE4Editor-Engine.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:809]
+UE4Editor-Engine.dll!UNavigationSystem::OnWorldInitDone() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\ai\navigation\navigationsystem.cpp:719]
+UE4Editor-Engine.dll!UNavigationSystem::InitializeForWorld() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\ai\navigation\navigationsystem.cpp:2252]
+UE4Editor-Engine.dll!UGameInstance::StartPIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\gameinstance.cpp:251]
+UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:3012]
+UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:2259]
+UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\playlevel.cpp:1048]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\editorengine.cpp:1244]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\unrealedengine.cpp:361]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2427]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+kernel32.dll
+ntdll.dll
+ntdll.dll
+
+[2015.12.02-01.09.19:662][576]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Prototype 56.902
+[2015.12.02-01.09.19:662][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-01.09.24:333][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-01.09.24:516][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-01.09.24:575][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066EE4C20
+[2015.12.02-01.09.28:123][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.09.28:123][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.09.29:367][303]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-01.09.29:381][303]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder and CapsuleComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.09.29:381][303]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.Arrow and ArrowComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.09.29:381][303]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CharMoveComp and CharacterMovementComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.09.29:381][303]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CharacterMesh0 and SkeletalMeshComponent /Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.12.02-01.09.29:494][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.02-01.09.29:525][303]BlueprintEditorCompileResults: Info [1285.38] Compile of Cubeasaurus successful! [in 158 ms]
+[2015.12.02-01.10.15:921][978]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.15:921][978]LogEditorTransaction: Undo Rename Axis Mapping
+[2015.12.02-01.10.21:548][265]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.21:548][265]LogEditorTransaction: Undo Add Axis Mapping To Group
+[2015.12.02-01.10.25:056][439]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.25:056][439]LogEditorTransaction: Undo Delete Child
+[2015.12.02-01.10.25:577][462]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.25:577][462]LogEditorTransaction: Undo Rename Axis Mapping
+[2015.12.02-01.10.26:052][489]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.26:052][489]LogEditorTransaction: Undo Rename Axis Mapping
+[2015.12.02-01.10.26:431][507]Cmd: TRANSACTION UNDO
+[2015.12.02-01.10.26:431][507]LogEditorTransaction: Undo Remove Components
+[2015.12.02-01.10.26:498][507]PIE:Warning: Warning AttachTo: '/Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2015.12.02-01.10.26:498][507]PIE:Warning: Warning AttachTo: '/Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2015.12.02-01.10.26:517][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.02-01.10.30:668][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.02-01.10.30:668][697]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.12.02-01.12.53:739][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.02-01.13.04:297][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.02-01.13.12:033][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.02-01.13.15:274][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.02-01.13.21:305][559]BlueprintLog: New page: Compile Cubeasaurus
+[2015.12.02-01.13.21:370][559]PIE:Warning: Warning AttachTo: '/Game/Maps/Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder' cannot be attached to itself. Aborting.
+[2015.12.02-01.13.21:416][559]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.02-01.13.21:466][559]BlueprintEditorCompileResults: Info [1517.31] Compile of Cubeasaurus successful! [in 161 ms]
+[2015.12.02-01.13.23:811][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.02-01.13.23:811][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.02-01.13.23:811][700]PIE: New page: PIE session: Prototype (2 Dec 2015 5:13:23 pm)
+[2015.12.02-01.13.23:812][700]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.02-01.13.23:826][700]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.12.02-01.13.24:778][700]LogCrashTracker: 
+
+
+[2015.12.02-01.13.24:901][700]LogCrashTracker: 
+
+
+[2015.12.02-01.13.24:901][700]LogWindows:Error: === Critical error: ===
+Assertion failed: !Obj->HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad|RF_ClassDefaultObject) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 1952] 
+Attempting to replace an object that hasn't been fully loaded: CapsuleComponent /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2.CollisionCylinder (Outer=Cubeasaurus_C /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.Cubeasaurus_C_2, Flags=0x00043008)
+
+
+
+
+[2015.12.02-01.13.25:030][700]LogExit: Executing StaticShutdownAfterError
+[2015.12.02-01.13.25:694][700]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-01.13.25:694][700]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-01.13.25:694][700]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-01.13.25:694][700]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.02-01.13.25:721][700]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.12.02-01.13.25:721][700]Log file closed, 12/02/15 09:13:25
