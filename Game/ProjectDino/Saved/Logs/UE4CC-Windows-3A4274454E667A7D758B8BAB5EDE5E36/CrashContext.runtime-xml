@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>8340</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>ProjectDino</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.0-2758231+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>3081</LanguageLCID>
+<DefaultLocale>en_AU</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>E:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>E:/Program Files/Epic Games/4.10/</RootDir>
+<MachineId>4C9771574B894F369E0755BF4A2FF316</MachineId>
+<EpicAccountId>c3ab1c9c4f054991b74fe21ae4a5d744</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: false [File:d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\math\UnrealMatrix.h] [Line: 266] 
+FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>AMD Radeon R9 200 Series</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8445132800</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>323911680</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140731670061056</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>2718609408</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>2988175360</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>4590616576</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>4590616576</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
