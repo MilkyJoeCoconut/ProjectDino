@@ -1,0 +1,220 @@
+﻿[2015.12.05-04.24.33:900][  0]Log file open, 12/05/15 12:24:33
+[2015.12.05-04.24.33:900][  0]LogInit:Display: Running engine for game: ProjectDino
+[2015.12.05-04.24.33:900][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.05-04.24.33:900][  0]LogInit:Display: RandInit(1156717213) SRandInit(1156717215).
+[2015.12.05-04.24.33:900][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.05-04.24.33:900][  0]LogStats: Stats thread started at 0.080749
+[2015.12.05-04.24.33:900][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.05-04.24.33:900][  0]LogInit: API Version: 2758231
+[2015.12.05-04.24.33:900][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.05-04.24.33:900][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.05-04.24.33:900][  0]LogInit: Build Configuration: Development
+[2015.12.05-04.24.33:900][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.05-04.24.33:900][  0]LogInit: Command line:  
+[2015.12.05-04.24.33:900][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.05-04.24.33:900][  0]LogInit: Rocket: 1
+[2015.12.05-04.24.33:910][  0]LogInit: Using libcurl 7.41.0
+[2015.12.05-04.24.33:910][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.05-04.24.33:910][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.05-04.24.33:910][  0]LogInit:  - other features:
+[2015.12.05-04.24.33:910][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.05-04.24.33:910][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.05-04.24.33:910][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.05-04.24.33:910][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.05-04.24.33:910][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.05-04.24.33:910][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.05-04.24.33:910][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.05-04.24.33:910][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.05-04.24.33:910][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.05-04.24.33:910][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.05-04.24.33:918][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.05-04.24.33:928][  0]LogInit: Object subsystem initialized
+[2015.12.05-04.24.33:929][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.05-04.24.33:929][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.05-04.24.33:940][  0]LogInit: Computer: OWNER-PC
+[2015.12.05-04.24.33:940][  0]LogInit: User: Owner
+[2015.12.05-04.24.33:940][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.05-04.24.33:940][  0]LogInit: High frequency timer resolution =2.732451 MHz
+[2015.12.05-04.24.33:940][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.12.05-04.24.33:940][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.05-04.24.33:940][  0]LogMemory: Process Physical Memory: 57.03 MB used, 57.03 MB peak
+[2015.12.05-04.24.33:940][  0]LogMemory: Process Virtual Memory: 57.59 MB used, 57.59 MB peak
+[2015.12.05-04.24.33:940][  0]LogMemory: Physical Memory: 3627.48 MB used, 12283.49 MB total
+[2015.12.05-04.24.33:940][  0]LogMemory: Virtual Memory: 350.59 MB used, 8388608.00 MB total
+[2015.12.05-04.24.33:979][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2015.12.05-04.24.34:508][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2015.12.05-04.24.34:508][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.12.05-04.24.34:508][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.05-04.24.34:512][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.05-04.24.34:512][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.05-04.24.34:522][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.05-04.24.35:072][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Intermediate/Shaders/WorkingDirectory/3312/).
+[2015.12.05-04.24.35:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/BA662F474B3344A8F1642988CC281F61/'.
+[2015.12.05-04.24.35:072][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.05-04.24.36:060][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.05-04.24.36:064][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.05-04.24.36:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.05-04.24.36:074][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.05-04.24.36:078][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.05-04.24.36:081][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.05-04.24.36:084][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.05-04.24.36:087][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.05-04.24.36:091][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.05-04.24.36:095][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.05-04.24.36:100][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.05-04.24.36:108][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.05-04.24.36:108][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.05-04.24.36:109][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.05-04.24.36:127][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.05-04.24.36:130][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.05-04.24.36:134][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.05-04.24.36:138][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.05-04.24.36:138][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.05-04.24.36:221][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.05-04.24.36:296][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.05-04.24.36:378][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.05-04.24.36:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.05-04.24.36:603][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.05-04.24.36:604][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.05-04.24.36:649][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.05-04.24.36:649][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.05-04.24.37:038][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.05-04.24.37:886][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.05-04.24.37:978][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.12.05-04.24.38:153][  0]SourceControl: Info Source control is disabled
+[2015.12.05-04.24.38:154][  0]SourceControl: Info Source control is disabled
+[2015.12.05-04.24.38:166][  0]SourceControl: Info Source control is disabled
+[2015.12.05-04.24.38:177][  0]SourceControl: Info Source control is disabled
+[2015.12.05-04.24.38:404][  0]LogObj: 28634 objects as part of root set at end of initial load.
+[2015.12.05-04.24.38:404][  0]LogUObjectAllocator: 6099912 out of 0 bytes used by permanent object pool.
+[2015.12.05-04.24.38:465][  0]LogEngine: Initializing Engine...
+[2015.12.05-04.24.38:467][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.05-04.24.38:482][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.05-04.24.38:612][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.05-04.24.38:618][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.05-04.24.38:635][  0]LogInit: FAudioDevice initialized.
+[2015.12.05-04.24.38:666][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.05-04.24.38:674][  0]LogInit: Texture streaming: Enabled
+[2015.12.05-04.24.38:680][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.05-04.24.38:680][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.05-04.24.38:680][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b1e705434c200a5e74bb2586ba0bc651|940afd638cf94ce9b4d8f38d9556b043|5d73f152-fa47-49e5-865a-fd1bc20a41b9
+[2015.12.05-04.24.38:680][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.05-04.24.38:698][  0]LogInit: Transaction tracking system initialized
+[2015.12.05-04.24.38:727][  0]BlueprintLog: New page: Editor Load
+[2015.12.05-04.24.38:809][  0]LocalizationService: Info Localization service is disabled
+[2015.12.05-04.24.38:894][  0]LogConsoleResponse:Display: 
+[2015.12.05-04.24.39:017][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.05-04.24.39:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/' took 0.01s
+[2015.12.05-04.24.39:082][  0]SourceControl: Info Source control is disabled
+[2015.12.05-04.24.39:082][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/Maps/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.05-04.24.39:083][  0]LightingResults: New page: Lighting Build
+[2015.12.05-04.24.39:086][  0]MapCheck: New page: Map Check
+[2015.12.05-04.24.39:086][  0]LightingResults: New page: Lighting Build
+[2015.12.05-04.24.39:100][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000284EEAC0
+[2015.12.05-04.24.39:776][  0]LogAIModule: Creating AISystem for world Prototype
+[2015.12.05-04.24.39:783][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.05-04.24.39:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.05-04.24.39:840][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.783ms to complete.
+[2015.12.05-04.24.39:840][  0]LogFileHelpers: Loading map 'Prototype' took 0.758
+[2015.12.05-04.24.39:961][  0]LogCollectionManager: Loaded 0 collections in 0.002443 seconds
+[2015.12.05-04.24.39:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Saved/Collections/' took 0.01s
+[2015.12.05-04.24.39:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/Developers/Owner/Collections/' took 0.01s
+[2015.12.05-04.24.39:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/Collections/' took 0.01s
+[2015.12.05-04.24.39:998][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.05-04.24.40:008][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1893 classes and 338 folders.
+[2015.12.05-04.24.40:015][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.05-04.24.40:067][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.05-04.24.40:071][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.05-04.24.40:128][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.05-04.24.40:132][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.05-04.24.40:152][  0]LogLoad: Full Startup: 6.73 seconds (BP compile: 0.19 seconds)
+[2015.12.05-04.24.40:164][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.05-04.24.40:218][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.05-04.24.40:446][  0]LogRenderer: Reallocating scene render targets to support 1236x544 (Frame:2).
+[2015.12.05-04.24.41:876][  5]LogAssetRegistry: Asset discovery search completed in 3.9067 seconds
+[2015.12.05-04.24.41:876][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.05-04.24.41:876][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2015.12.05-04.24.47:051][309]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.05-04.24.47:739][309]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2015.12.05-04.24.54:850][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.05-04.24.55:077][803]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.12.05-04.24.57:400][985]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2015.12.05-04.24.57:626][  3]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.12.05-04.25.45:547][849]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.25.46:752][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.05-04.25.47:747][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.05-04.25.48:494][ 83]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2015.12.05-04.26.00:750][  9]Cmd: TRANSACTION UNDO
+[2015.12.05-04.26.00:750][  9]LogEditorTransaction: Undo Move Actors
+[2015.12.05-04.26.04:525][293]Cmd: TRANSACTION UNDO
+[2015.12.05-04.26.04:525][293]LogEditorTransaction: Undo Move Actors
+[2015.12.05-04.26.08:846][634]Cmd: TRANSACTION UNDO
+[2015.12.05-04.26.08:846][634]LogEditorTransaction: Undo Move Actors
+[2015.12.05-04.26.10:768][763]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.26.12:001][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.26.12:854][936]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume)
+[2015.12.05-04.26.27:164][ 39]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.12.05-04.26.39:835][ 14]LogEditorViewport: Clicking on Actor (context menu): KillZVolume (KillZVolume2)
+[2015.12.05-04.26.40:418][ 60]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.27.11:186][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.05-04.27.27:930][539]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.12.05-04.27.29:335][618]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.27.29:791][647]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume4)
+[2015.12.05-04.27.38:405][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.12.05-04.27.39:830][362]LogEditorViewport: Clicking on Actor (LMB): KillZVolume (KillZVolume4)
+[2015.12.05-04.27.52:376][321]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.05-04.27.53:447][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.05-04.27.53:494][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002587AFC0
+[2015.12.05-04.27.53:708][395]LogSavePackage: Save=146.248550ms
+[2015.12.05-04.27.53:708][395]LogSavePackage: Moving '../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Saved/Prototype00D35E8F4FBC13EEA77EC2BCB589B89B.tmp' to '../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/Maps/Prototype.umap'
+[2015.12.05-04.27.53:715][395]LogSavePackage: Total save time: 203.456163ms
+[2015.12.05-04.27.53:715][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Desktop/ProjectDino/Repository/Game/ProjectDino/Content/Maps/Prototype.umap
+[2015.12.05-04.27.54:858][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/Maps/Prototype.Prototype_C' with ClassGeneratedBy '/Game/Maps/Prototype.Prototype:PersistentLevel.Prototype'
+[2015.12.05-04.27.54:858][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.05-04.27.54:858][473]PIE: New page: SIE session: Prototype (5 Dec 2015 8:27:54 pm)
+[2015.12.05-04.27.54:859][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Prototype
+[2015.12.05-04.27.54:866][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007041s)
+[2015.12.05-04.27.54:867][473]LogAIModule: Creating AISystem for world Prototype
+[2015.12.05-04.27.54:867][473]LogPlayLevel: PIE: World Init took: (0.001724s)
+[2015.12.05-04.27.54:868][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Prototype.Prototype to /Game/Maps/UEDPIE_0_Prototype.Prototype (0.009038s)
+[2015.12.05-04.27.54:914][473]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.SkySphere"
+[2015.12.05-04.27.54:922][473]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.05-04.27.54:929][473]LogInit: FAudioDevice initialized.
+[2015.12.05-04.27.54:990][473]LogWorld: Game class is 'GameMode_Default_C'
+[2015.12.05-04.27.54:995][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2015.12.05-12.27.54
+[2015.12.05-04.27.54:995][473]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.05-04.27.54:995][473]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Prototype.Prototype:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.05-04.27.55:020][473]LogWorld: Bringing up level for play took: 0.028704
+[2015.12.05-04.27.55:022][473]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.12.05-04.27.55:026][473]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [1/0]!
+[2015.12.05-04.27.55:026][473]LogOutputDevice:Warning: 
+
+Script Stack:
+Prototype_C.ExecuteUbergraph_Prototype
+
+[2015.12.05-04.27.55:027][473]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.12.05-04.27.55:404][473]LogCrashTracker: 
+
+
+[2015.12.05-04.27.55:404][473]LogCrashTracker: 
+
+
+[2015.12.05-04.27.55:404][473]LogWindows:Error: === Critical error: ===
+Assertion failed: !bHasBegunPlay [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 640] 
+
+
+
+
+
+[2015.12.05-04.27.55:519][473]LogExit: Executing StaticShutdownAfterError
+[2015.12.05-04.27.55:524][473]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.05-04.27.55:525][473]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.05-04.27.55:525][473]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.05-04.27.55:525][473]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.12.05-04.27.55:525][473]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.12.05-04.27.55:525][473]Log file closed, 12/05/15 12:27:55
